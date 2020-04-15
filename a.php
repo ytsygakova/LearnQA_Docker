@@ -1,1 +1,1 @@
-<?php echo phpversion() . PHP_EOL; touch("a.txt"); $f = file_put_contents("a.txt", "hello!");
+<?php $arr = [1,2,3]; foreach ($arr as $val) {echo $val . PHP_EOL;}
