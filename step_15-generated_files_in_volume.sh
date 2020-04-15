@@ -1,0 +1,1 @@
+<?php echo phpversion() . PHP_EOL; touch("a.txt"); $f = file_put_contents("a.txt", "hello!");
