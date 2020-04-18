@@ -1,6 +1,6 @@
 docker build -t php-app .
 
-docker images ls
+docker image ls
 
 docker run --rm php-app
 
