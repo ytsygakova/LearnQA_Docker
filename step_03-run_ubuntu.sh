@@ -1,4 +1,4 @@
-docker run -it --rm ubuntu /bin/bash
+docker run -it ubuntu /bin/bash
 
 # cli
 # commands

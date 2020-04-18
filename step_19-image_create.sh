@@ -6,7 +6,6 @@ docker run -it --mount src=the_file,target=/volume ubuntu /bin/bash
 # apt-get install apt-file
 # apt-file update
 # apt-get install vim
-
 # ctrl+p && ctrl+q
 
 docker commit <angry_maxwell> ubuntu_with_vim

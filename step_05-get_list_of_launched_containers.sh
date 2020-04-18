@@ -1,1 +1,1 @@
-docker ps
+docker ps # the same 'docker container ls'

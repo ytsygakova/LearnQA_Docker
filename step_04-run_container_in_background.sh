@@ -1,3 +1,3 @@
 echo "Running Ubuntu containser"
 
-docker run -it --rm ubuntu /bin/bash & > /dev/null
+docker run -it -d ubuntu /bin/bash
