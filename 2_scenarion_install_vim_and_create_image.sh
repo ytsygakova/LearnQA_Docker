@@ -1,12 +1,13 @@
-docker run -it --rm --mount type=volume,src=php_volume,target=/volume/ ubuntu bash
+docker run -it --mount type=volume,src=php_volume,target=/volume/ ubuntu bash
 
 # apt-get update
-# apt-get install apt-file
+# apt-get install apt-file # тут спросит Y/N - надо набрать y и жмакнуть Enter
 # apt-file update
-# apt-get install vim
+# apt-get install vim # тут спросит Y/N - надо набрать y и жмакнуть Enter
+# vim counter.php
 # exit
 
-docker commit [CID] nizkopal/ubuntu_with_vim
+docker commit [CID] nizkopal/ubuntu_with_vim # example: docker commit a11462f3663f nizkopal/ubuntu_with_vim
 
 # see new image
 docker image ls
@@ -18,4 +19,4 @@ docker run -it --rm --mount type=volume,src=php_volume,target=/volume/  nizkopal
 docker login # enter login and password
 
 # push to Docker Hub
-docker push nizkopal/ubuntu_with_vim_2
+docker push nizkopal/ubuntu_with_vim
