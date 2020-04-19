@@ -10,6 +10,5 @@ docker run --rm --mount type=volume,src=php_volume,target=/src/,readonly php php
 docker ps -a # после исполнения команды контейнер автоматически останавливается
 
 # тестируем различные версии PHP
-docker run --rm --mount type=volume,src=php_volume,target=/src/,readonly php php /src/counter.php
 docker run --rm --mount type=volume,src=php_volume,target=/src/,readonly php:5.6-cli php /src/counter.php
 docker run --rm --mount type=volume,src=php_volume,target=/src/,readonly php:5.3-cli php /src/counter.php
